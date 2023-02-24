@@ -9,4 +9,10 @@ Given two integers a, b,  check the following statement "At least one  of the nu
         bool: answer
 */
 
-void main() {}
+bool func(int a, b) {
+  return a > 0 && b < 0 ||a<0&&b>0 ;
+}
+
+void main() {
+  print(func(6, -3));
+}

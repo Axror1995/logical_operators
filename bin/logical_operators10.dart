@@ -7,5 +7,10 @@ Given integer a,  check the following statement "The integer is two-digit number
     Returns:
         bool: answer
 */
+bool func(int a) {
+  return a>9&&a<=99;
+}
 
-void main() {}
+void main() {
+  print(func(94));
+}

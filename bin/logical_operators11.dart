@@ -8,4 +8,10 @@ Given integer a,  check the following statement "The integer is three-digit numb
         bool: answer
 */
 
-void main() {}
+bool func(int a) {
+  return a>99&&a<=999;
+}
+
+void main() {
+  print(func(904));
+}
