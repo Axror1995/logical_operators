@@ -9,5 +9,22 @@ Five number consisting of one and zero is given (the number starts at once).
     Returns:
         bool: answer
 */
+bool func(int a) {
+  int x1 = a % 10;
+  a ~/= 10;
+  int x2 = a % 10;
+  a ~/= 10;
+  int x3 = a % 10;
+  a ~/= 10;
+  int x4 = a % 10;
 
-void main() {}
+  int x5 = a ~/ 10;
+
+  int x6 = x1 + x2 + x3 + x4 + x5 ;
+
+  return x6>=3;
+}
+
+void main() {
+  print(func(10001));
+}
