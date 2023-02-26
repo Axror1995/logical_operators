@@ -12,7 +12,7 @@ bool func(int x) {
   int a = x ~/ 100;
   int b = x % 10;
 
-  bool answer = a==b;
+  bool answer = a/b==1;
   return answer;
 }
 
