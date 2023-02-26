@@ -9,11 +9,11 @@ Given a three digit integer x, return true if x is palindrome integer.
       bool: answer
 */
 bool func(int a) {
-  
-  //a %= 10;
-  int b = a % 10;
-   a~/= 100;
-  return a==b;
+  int x = a ~/ 100;
+  int y = a % 10;
+
+  bool answer =x==y;
+  return answer;
 }
 
 void main() {
