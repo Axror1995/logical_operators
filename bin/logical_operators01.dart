@@ -11,7 +11,7 @@ Given three integers a, b, c,  check the following statement "The number b is be
 */
 
 bool func(int a, int b, int c) {
-  bool answer = a < b && b < c||a>b&&c>b;
+  bool answer = a < b && b < c||a>b&&c<b;
   return answer;
 }
 
