@@ -11,10 +11,10 @@ Given three integers a, b, c,  check the following statement "The number b is be
 */
 
 bool func(int a, int b, int c) {
-  bool answer = a < b && a < c || b < a && b < c;
+  bool answer = a < b && b < c;
   return answer;
 }
 
 void main() {
-  print(func(8, 6, 8));
+  print(func(1, 2, 3));
 }
